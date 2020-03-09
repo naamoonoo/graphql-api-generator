@@ -1,0 +1,24 @@
+type GetCurrentUserResponse {
+  res: Boolean!
+  error: String
+  user: User
+}
+
+type Query {
+  GetCurrentUser: GetCurrentUserResponse!
+}
+
+type User {
+  id: String!
+  fbId: String
+  googleId: String
+  username: String!
+  password: String
+  profilePhoto: String!
+  email: String
+  isEmailVerified: Boolean
+  phone: String
+  isPhoneVerified: Boolean
+  createAt: String!
+  updateAt: String!
+}
