@@ -87,6 +87,6 @@
     "passport": "^0.4.1",
     "pg": "^7.18.2",
     "subscriptions-transport-ws": "^0.9.16",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.25"
   }
 }
